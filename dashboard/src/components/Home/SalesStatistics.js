@@ -16,6 +16,7 @@ const SaleStatistics = () => {
               width: '640',
               height: '1200',
             }}
+            title="sales"
             src="https://charts.mongodb.com/charts-ecommerce-ifbog/embed/charts?id=63adf8a6-b222-48ad-8c06-6652df0cad6d&maxDataAge=3600&theme=light&autoRefresh=true"
           ></iframe>
         </article>

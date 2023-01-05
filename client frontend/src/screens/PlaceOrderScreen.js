@@ -32,6 +32,8 @@ const PlaceOrderScreen = ({ history }) => {
 
   const orderCreate = useSelector((state) => state.orderCreate);
   const { order, success, error } = orderCreate;
+
+  //warning here
   const HalfPrice = cart.totalPrice == 1376.55;
   console.log(cart.totalPrice);
   useEffect(() => {

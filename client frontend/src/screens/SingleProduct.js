@@ -54,6 +54,10 @@ const SingleProduct = ({ history, match }) => {
       })
     );
   };
+  function sendEmail() {
+    window.location.href =
+      'mailto:guradivinay33@gmail.com?subject=Notifyme&body=Hi%20there!';
+  }
   return (
     <>
       <Header />
@@ -98,10 +102,11 @@ const SingleProduct = ({ history, match }) => {
                       />
                     </div>
                     <div>
-                      <Link to="/">
-                        <button className="round-black-btn">Notify me</button>
-                      </Link>
+                      <button onClick={sendEmail} className="round-black-btn">
+                        Notify me
+                      </button>
                     </div>
+
                     {product.countInStock > 0 ? (
                       <>
                         <div className="flex-box d-flex justify-content-between align-items-center">

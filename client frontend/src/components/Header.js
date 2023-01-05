@@ -19,7 +19,7 @@ const Header = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (keyword.trim()) {
+    if (keyword && keyword.trim()) {
       history.push(`/search/${keyword}`);
     } else {
       history.push('/');
@@ -36,18 +36,51 @@ const Header = () => {
               <p>guradivinay33@gmail.com</p>
             </div>
             <div className=" col-12 col-lg-6 justify-content-center justify-content-lg-end d-flex align-items-center">
-              <Link to="">
+              {/* <Link to="">
                 <i className="fab fa-facebook-f"></i>
-              </Link>
-              <Link to="https://www.instagram.com/invites/contact/?i=1hluw3i59g3x0&utm_content=3lopalu">
+              </Link> */}
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1hluw3i59g3x0&utm_content=3lopalu"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-instagram"></i>
-              </Link>
-              <Link to="https://www.linkedin.com/in/vinay-reddy-840305208/">
+              </a>
+              {/* <Link to="https://www.instagram.com/invites/contact/?i=1hluw3i59g3x0&utm_content=3lopalu">
+                <i className="fab fa-instagram"></i>
+              </Link> */}
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1hluw3i59g3x0&utm_content=3lopalu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-facebook"></i>
+              </a>
+              {/* <Link to="https://www.linkedin.com/in/vinay-reddy-840305208/">
                 <i className="fab fa-linkedin-in"></i>
-              </Link>
-              <Link to="">
-                <i className="fab fa-youtube"></i>
-              </Link>
+              </Link> */}
+              <a
+                href="https://www.linkedin.com/in/vinay-reddy-840305208/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+
+              {/* <Link
+                to="https://github.com/Vinayreddy18/Major-Project----Nuclear-Shopping-website"
+                target="_blank"
+              >
+                <i className="fab fa-github"></i>
+              </Link> */}
+              <a
+                href="https://github.com/Vinayreddy18/Major-Project----Nuclear-Shopping-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+
               <Link to="">
                 <i className="fab fa-pinterest-p"></i>
               </Link>

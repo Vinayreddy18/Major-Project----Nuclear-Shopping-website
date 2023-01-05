@@ -15,6 +15,7 @@ const ProductsStatistics = () => {
               width: '640',
               height: '480',
             }}
+            title="charts"
             src="https://charts.mongodb.com/charts-ecommerce-ifbog/embed/charts?id=63adf8a6-b222-48ad-8c06-6652df0cad6d&maxDataAge=3600&theme=dark&autoRefresh=true"
           ></iframe>
         </article>

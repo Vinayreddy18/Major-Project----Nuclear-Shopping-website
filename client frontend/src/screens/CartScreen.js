@@ -25,7 +25,7 @@ const CartScreen = ({ match, location, history }) => {
     history.push('/login?redirect=shipping');
   };
   const checkOut = () => {
-    const HalfPrice = true;
+    // const HalfPrice = true;
     history.push('/login?redirect=shipping');
   };
 
