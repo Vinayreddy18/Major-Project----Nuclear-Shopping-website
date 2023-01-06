@@ -51,5 +51,5 @@ Features includes:
                                                 Category Status for admin
 ![image](https://user-images.githubusercontent.com/86468467/211033775-4efebee1-d375-429c-90c8-63607be5a5f3.png)
         
-                                                Footer
+                                                  Footer
 ![image](https://user-images.githubusercontent.com/86468467/211032556-ba0de6aa-e1dd-46cd-b738-0bdfd982d435.png)
