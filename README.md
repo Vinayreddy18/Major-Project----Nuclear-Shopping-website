@@ -5,6 +5,7 @@ https://major-project-dashboard.netlify.app/
 
 username:shoeshop@gmail.com
 password:123456
+
 A nuclear shopping website that has an admin portal and a customer portal built using MERN Stack (MongoDB,ExpressJS,ReactJS,NodeJS)
 
 
